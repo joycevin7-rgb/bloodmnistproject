@@ -1,0 +1,4 @@
+Model,Params,Seeds,Val Acc (%),Val Macro-F1 (%),Test Acc (%),Test Macro-F1 (%),Train time (s)
+Baseline (SmallCNN),"549,032",3,96.61 ± 0.56,96.35 ± 0.63,96.19 ± 0.44,95.95 ± 0.42,22 ± 1
+Method A (ResNet-18 scratch),"11,180,616",3,98.62 ± 0.09,98.66 ± 0.08,98.63 ± 0.18,98.67 ± 0.23,193 ± 7
+Method B (ResNet-18 pretrained),"11,180,616",3,99.20 ± 0.09,99.23 ± 0.07,98.79 ± 0.09,98.92 ± 0.09,193 ± 1

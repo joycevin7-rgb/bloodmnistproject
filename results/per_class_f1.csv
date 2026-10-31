@@ -1,0 +1,9 @@
+,Baseline (SmallCNN),Method A (ResNet-18 scratch),Method B (ResNet-18 pretrained)
+basophil,0.9539,0.9939,0.9939
+eosinophil,0.9907,0.9984,0.9992
+erythroblast,0.9584,0.9893,0.9925
+immature granulocytes,0.9171,0.9694,0.9704
+lymphocyte,0.9666,0.9857,0.9911
+monocyte,0.9237,0.9778,0.9883
+neutrophil,0.967,0.9797,0.9787
+platelet,0.9989,0.9996,0.9996

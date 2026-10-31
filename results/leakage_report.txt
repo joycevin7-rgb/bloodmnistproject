@@ -1,0 +1,22 @@
+Dataset: bloodmnist, image size 64x64x3, 8 classes
+  train:  11959 images (70.0%)
+  val  :   1712 images (10.0%)
+  test :   3421 images (20.0%)
+
+Class distribution (count and % of each split):
+split                  train  val  test  train_%  val_%  test_%
+basophil                 852  122   244      7.1    7.1     7.1
+eosinophil              2181  312   624     18.2   18.2    18.2
+erythroblast            1085  155   311      9.1    9.1     9.1
+immature granulocytes   2026  290   579     16.9   16.9    16.9
+lymphocyte               849  122   243      7.1    7.1     7.1
+monocyte                 993  143   284      8.3    8.4     8.3
+neutrophil              2330  333   666     19.5   19.5    19.5
+platelet                1643  235   470     13.7   13.7    13.7
+
+--- Leakage checks ---
+Exact duplicates (MD5): 9 hashes appear in more than one split; 17 hashes appear more than once overall.
+  split combinations: {('test', 'train'): 5, ('train', 'val'): 3, ('test', 'val'): 1}
+Near-duplicates val vs train: 3 / 1712 images have a train neighbour with mean abs difference < 0.01 (min distance 0.0000, median 0.0724)
+Near-duplicates test vs train: 5 / 3421 images have a train neighbour with mean abs difference < 0.01 (min distance 0.0000, median 0.0720)
+Subject-level check: BloodMNIST provides NO patient/subject IDs, so overlap of subjects between splits cannot be verified. State this as a limitation in the report.

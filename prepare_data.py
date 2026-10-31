@@ -47,7 +47,7 @@ def thumbnails(imgs, device):
     return small.to(device)
 
 
-def nearest_train_distance(query, train, chunk=512):
+def nearest_train_distance(query, train, chunk=32):
     """For each query thumbnail: mean absolute difference to its nearest TRAIN thumbnail."""
     mins = []
     for i in range(0, len(query), chunk):

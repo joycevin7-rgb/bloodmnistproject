@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large files: Dataset & Model Checkpoints
+data/
+checkpoints/
+checkpoints_quick/
+
+# Quick test runs and logs
+results_quick/
+figures_quick/
+logs/
+
+# Operating System and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

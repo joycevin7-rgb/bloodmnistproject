@@ -1,6 +1,6 @@
 # Hypotheses (written BEFORE running the experiments)
 
-Date written: ____ (fill in before you run `run_all.py`)
+Date written: 31/10/2026
 
 **H1 (Baseline vs. Method A).** Method A (ResNet-18 from scratch + augmentation) will achieve a higher
 test macro-F1 than the Baseline (small CNN), because it is deeper, has residual connections and sees

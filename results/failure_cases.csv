@@ -1,0 +1,7 @@
+test_index,true,predicted,confidence,your_hypothesis
+1750,monocyte,lymphocyte,0.9999992847442627,
+3126,neutrophil,eosinophil,0.9999964237213135,
+839,neutrophil,immature granulocytes,0.9997803568840027,
+476,neutrophil,immature granulocytes,0.999488115310669,
+1629,immature granulocytes,neutrophil,0.9980687499046326,
+3373,immature granulocytes,neutrophil,0.9940866231918335,
